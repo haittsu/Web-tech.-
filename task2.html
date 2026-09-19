@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2 - Clean Layout</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <header class="header-section">
+        <h1>Professional Layout</h1>
+        <p>Built with classic CSS Floats</p>
+    </header>
+    
+    <nav class="navbar">
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html" class="active">Task 2</a>
+        <a href="exercise1/index.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+    </nav>
+
+    <div class="content-wrapper">
+        <!-- Боковое меню без иконок -->
+        <div class="sidebar">
+            <h3>Quick Menu</h3>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Analytics</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </div>
+
+        <!-- Основной контент -->
+        <div class="main-content">
+            <h2>Welcome to your Workspace</h2>
+            <img class="article-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Workspace">
+            <p>This layout demonstrates a clean, professional interface using only CSS floats. The navigation bar is at the top, the colors are balanced, and the typography is easy to read.</p>
+            <p>Notice how this text wraps around the image? That's the magic of the <code>float</code> property applied directly to the image, while the entire main section is floated to the right of the sidebar.</p>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+
+    <footer class="footer-section">
+        <p>&copy; 2026 Berikzhan Abilmansur. Astana IT University</p>
+    </footer>
+</body>
+</html>

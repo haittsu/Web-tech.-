@@ -1,0 +1,130 @@
+body {
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+.header-section {
+    background: linear-gradient(135deg, rgb(23, 16, 85), rgb(114, 41, 41));
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+.header-section h1 { 
+    margin: 0; 
+    font-size: 32px; 
+}
+.header-section p { 
+    margin: 10px 0 0; 
+    color: rgb(33, 208, 164); 
+}
+
+/* Navigation */
+.navbar {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+}
+.navbar a {
+    color: rgb(23, 16, 85);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.navbar a:hover, .navbar a.active {
+    background-color: rgb(33, 208, 164);
+    color: rgb(23, 16, 85);
+}
+
+/* Layout Wrapper */
+.content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; /* Clearfix для контейнера */
+}
+
+/* Sidebar (Float Left) */
+.sidebar {
+    float: left;
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+.sidebar h3 {
+    margin-top: 0;
+    color: rgb(114, 41, 41);
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li { 
+    margin-bottom: 12px; 
+}
+.sidebar a {
+    text-decoration: none;
+    color: #555;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+.sidebar a:hover { 
+    color: rgb(33, 208, 164); 
+}
+
+/* Main Content (Float Right) */
+.main-content {
+    float: right;
+    width: 72%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+.main-content h2 {
+    color: rgb(23, 16, 85);
+    margin-top: 0;
+}
+.article-img {
+    float: left;
+    width: 40%;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.main-content p {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #555;
+}
+.clearfix { 
+    clear: both; 
+}
+
+/* Footer */
+.footer-section {
+    clear: both;
+    background-color: rgb(23, 16, 85);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
