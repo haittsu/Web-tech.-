@@ -1,0 +1,113 @@
+.tole {
+    background-color: whitesmoke;
+    color: rgb(23, 16, 85);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+p {
+    text-align: center;
+}
+.portugal {
+    width: 256px;
+    height: auto;
+    display: block;
+    justify-self: center;
+    border-radius: 16px;
+    max-width: 67%;
+}
+h2 {
+    text-align: center;
+    margin: 10px 5;
+    padding: 10px;
+    border: 3px solid rgb(114, 41, 41);
+    border-radius: 8px;
+}
+
+a {
+    color: rgb(33, 90, 208);
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(114, 41, 41);
+    padding: 2px 6px;
+    border-radius: 16px;
+}
+#Friday {
+    text-align: center;
+    margin: 10px 5;
+    padding: 5px;
+    border: 4px dashed rgb(89, 90, 41);
+    border-radius: 8px;
+}
+
+.profile-card {
+    max-width: 320px;
+    margin: 40px auto;      
+    padding: 14px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;   
+    border-radius: 50%;     
+    border: 3px solid rgb(46, 37, 184);
+    margin-bottom: 16px;
+}
+
+.profile-name {
+    margin: 8px 0 4px;
+    font-size: 22px;
+    color: rgb(114, 41, 41);
+}
+
+.profile-group {
+    margin: 0 0 12px;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+.profile-desc {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+body {
+    background-color: rgb(33, 208, 164);
+    margin: 0;
+    padding: 20px;
+}
+
+.lists-wrapper {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.list-left {
+    text-align: left;
+}
+
+.list-right {
+    text-align: right;
+}
+
+@media (max-width: 480px) {
+    .lists-wrapper {
+        flex-direction: column; 
+        align-items: flex-start;
+    }
+}
