@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Table & Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task4.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="task1.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="exercise1/task3.html">Task 3</a>
+        <a href="task4.html" class="active">Task 4</a>
+    </nav>
+
+    <div class="main-wrapper">
+        <h1 id="table-heading">Student Performance</h1>
+        
+        <div class="table-container">
+            <table class="grades-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Berikzhan</td>
+                        <td>Web Development</td>
+                        <td>A</td>
+                    </tr>
+                    <tr class="highlight-row">
+                        <td>Alibek</td>
+                        <td>DAA</td>
+                        <td>A+</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Aruzhan</td>
+                        <td>Physics</td>
+                        <td>B+</td>
+                    </tr>
+                    <tr>
+                        <td>History</td>
+                        <td>A</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="form-card">
+            <h2>Course Feedback</h2>
+            
+            <form id="feedback-form" action="#" method="POST">
+                <label for="student-name">Full Name</label>
+                <input type="text" id="student-name" name="student-name" placeholder="Enter your full name" required>
+
+                <label for="student-email">Email Address</label>
+                <input type="email" id="student-email" name="student-email" placeholder="Enter your email" required>
+
+                <label for="user-role">Role</label>
+                <select id="user-role" name="user-role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label>Did you enjoy the course?</label>
+                <div class="radio-group">
+                    <input type="radio" id="recommend-yes" name="recommend" value="yes" checked>
+                    <label for="recommend-yes" class="radio-label">Yes</label>
+
+                    <input type="radio" id="recommend-no" name="recommend" value="no">
+                    <label for="recommend-no" class="radio-label">No</label>
+                </div>
+
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Share your feedback..."></textarea>
+
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

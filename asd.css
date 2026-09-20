@@ -4,6 +4,30 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
 }
+.navbar {
+    background-color: #ffffff;
+    padding: 14px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    color: rgb(23, 16, 85);
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    background-color: rgb(33, 208, 164);
+    color: rgb(23, 16, 85);
+}
 p {
     text-align: center;
 }
