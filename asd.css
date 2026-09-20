@@ -111,3 +111,10 @@ body {
         align-items: flex-start;
     }
 }
+.my-gradient-block {
+    background: linear-gradient(135deg, rgb(23, 16, 85), rgb(114, 41, 41));
+    color: white;      
+    padding: 40px 20px;
+    border-radius: 12px; 
+    text-align: center;
+}
