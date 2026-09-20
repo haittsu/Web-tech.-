@@ -5,8 +5,6 @@ body {
     padding: 0;
     color: #333;
 }
-
-/* Header */
 .header-section {
     background: linear-gradient(135deg, rgb(23, 16, 85), rgb(114, 41, 41));
     color: white;
@@ -22,7 +20,6 @@ body {
     color: rgb(33, 208, 164); 
 }
 
-/* Navigation */
 .navbar {
     background-color: white;
     padding: 15px;
@@ -45,15 +42,15 @@ body {
     color: rgb(23, 16, 85);
 }
 
-/* Layout Wrapper */
+
 .content-wrapper {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden; /* Clearfix для контейнера */
+    overflow: hidden;
 }
 
-/* Sidebar (Float Left) */
+
 .sidebar {
     float: left;
     width: 25%;
@@ -88,7 +85,6 @@ body {
     color: rgb(33, 208, 164); 
 }
 
-/* Main Content (Float Right) */
 .main-content {
     float: right;
     width: 72%;
@@ -119,7 +115,6 @@ body {
     clear: both; 
 }
 
-/* Footer */
 .footer-section {
     clear: both;
     background-color: rgb(23, 16, 85);
